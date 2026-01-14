@@ -69,13 +69,14 @@ python chatbot.py \
   --summary-max-words 180
 
 ## Common Options ##
-Option	             Description
-- --model	             Chat model
-- --instructions	     System / developer instructions
-- --max-turns	         Turns before summarization
-- --recent-turns	     Turns kept verbatim
-- --summary-max-words	 Target summary length
-- --summary-max-chars	 Hard summary size cap
+| Option | Description |
+|--------|-------------|
+| `--model` | Chat model |
+| `--instructions` | System / developer instructions |
+| `--max-turns` | Turns before summarization |
+| `--recent-turns` | Turns kept verbatim |
+| `--summary-max-words` | Target summary length |
+| `--summary-max-chars` | Hard summary size cap |
 
 ## Design Goals ##
 - Explicit, typed message structure
