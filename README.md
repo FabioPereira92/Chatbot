@@ -1,4 +1,4 @@
-#Terminal Chatbot with Long-Term Memory (OpenAI Responses API)#
+# Terminal Chatbot with Long-Term Memory (OpenAI Responses API) #
 
 A simple, robust terminal chatbot written in Python using the OpenAI Responses API.
 It supports long conversations by automatically summarizing older history into a compact memory.
